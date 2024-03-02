@@ -1,0 +1,70 @@
+La informació dels usuaris registrats en el sistema Linux s'acostuma a guardar en:
+a) /etc/users
+b) /etc/profile
+c) /etc/system
+d) /etc/passwd
+L'ordre que permet que tots puguin llegir i executar l'script “nom_script”, però només el propietari pugui esborrar-ho és:
+a) chmod 711 nom_script
+b) chmod ugo +rx nom_script
+c) chmod 755 nom_script
+d) chmod 744 nom_script
+L'arxiu que guarda la informació de les contrasenyes encriptades dels usuaris és:
+a) /home/passwd
+b) /etc/shadow
+c) /etc/gshadow
+d) /home/shadow
+L'ordre que canvia el propietari d'un arxiu és:
+a) chmod
+b) chown
+c) chgrp
+d) chuser
+El permís d'execució en directoris permet:
+a) executar els scripts que conté
+b) crear nous arxius en el seu interior
+c) llistar el seu contingut
+d) navegar per la seva ruta interior
+La representació simbòlica dels permisos “rw- rwx --x” equival en la representació octal a:
+a) 671
+b) 571
+c) 472
+d) Totes són falses
+L'ordre que permet realitzar modificacions en els paràmetres d'un usuari és:
+a) usermod
+b) chmod
+c) moduser
+d) chuser
+La representació simbòlica dels permisos “rw- rwx --x” equival en la representació octal a:
+a) 671
+b) 571
+c) 472
+d) Totes són falses
+L'ordre que permet canviar d'usuari, juntament amb les seves variables d'entorn és:
+a) su
+b) su -
+c) sudo
+d) Totes són certes
+L'ordre que permet traspassar la propietat de la carpeta directori i tot el seu contingut a l'usuari pepe i al grup pepe és:
+a) chown -R pepe:pepe directori
+b) chmod -R pepe:pepe directori
+c) chown -R pepe directori
+d) chgrp -R pepe directori
+L'usuari root té un uid igual a:
+a) 0
+b) 1
+c) 500
+d) 1000
+Si sabem que l'arxiu “bingo” es troba en algun punt del sistema d'arxius, la comanda correcta per cercar-lo en Linux i veure la seva ubicació, és:
+a) find / -name bingo
+b) find /root -name bingo
+c) find /home/alumne -name bingo
+d) Cap de les anteriors.
+Quina de les següents comandes s'utilitza per crear un nou directori anomenat "projectes" a la ubicació actual?
+a) mkdir projectes
+b) cp projectes
+c) touch projectes
+d) newdir projectes
+Com pots copiar el contingut del fitxer "arxiu.txt" al fitxer "copia.txt" amb la comanda cp?
+a) cp arxiu.txt copia.txt
+b) cp arxiu.txt > copia.txt
+c) cp copia.txt arxiu.txt
+d) cp arxiu.txt copia.txt -r
